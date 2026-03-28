@@ -1,0 +1,28 @@
+{
+  "matrices": [
+    {
+      "matrix_name": "baseline_1d_reading_speed",
+      "path": "02_feature_matrices/baseline_1d_reading_speed.parquet",
+      "key": "unique_trial_id",
+      "row_count": 4782,
+      "feature_count": 1,
+      "schema_file": "00_metadata/feature_schemas/baseline_1d_reading_speed.schema.json"
+    },
+    {
+      "matrix_name": "baseline_9d_shallow",
+      "path": "02_feature_matrices/baseline_9d_shallow.parquet",
+      "key": "unique_trial_id",
+      "row_count": 4782,
+      "feature_count": 9,
+      "schema_file": "00_metadata/feature_schemas/baseline_9d_shallow.schema.json"
+    },
+    {
+      "matrix_name": "baseline_567d_rfstyle",
+      "path": "02_feature_matrices/baseline_567d_rfstyle.parquet",
+      "key": "unique_trial_id",
+      "row_count": 4782,
+      "feature_count": 567,
+      "schema_file": "00_metadata/feature_schemas/baseline_567d_rfstyle.schema.json"
+    }
+  ]
+}

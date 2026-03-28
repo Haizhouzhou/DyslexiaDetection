@@ -1,0 +1,13 @@
+{
+  "matrix_name": "baseline_1d_reading_speed",
+  "feature_count": 1,
+  "features": [
+    {
+      "feature_name": "reading_speed",
+      "dtype": "float64",
+      "description": "Trial-level reading speed computed as number of words divided by paragraph reading time.",
+      "source_family": "reading_speed",
+      "notes": "Selected using the repository feature registry and the canonical LogisticRegressionMLArgs item-level feature mode."
+    }
+  ]
+}

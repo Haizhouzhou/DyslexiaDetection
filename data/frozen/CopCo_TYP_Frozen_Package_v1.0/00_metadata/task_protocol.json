@@ -1,0 +1,56 @@
+{
+  "task_name": "CopCo_TYP",
+  "dataset_name": "CopCo",
+  "task_type": "binary_classification",
+  "target_column": "dyslexia",
+  "positive_class": "Dyslexia",
+  "negative_class": "Typical",
+  "n_folds": 4,
+  "test_fold_rule": "For exported fold_index=k, test uses fold (k + 1) mod 4.",
+  "validation_fold_rule": "For exported fold_index=k, validation uses fold k.",
+  "training_fold_rule": "For exported fold_index=k, training uses the remaining two folds.",
+  "split_regimes": {
+    "train": {
+      "source_regime_name": "train_train",
+      "split_role": "train",
+      "is_unseen_reader": false,
+      "is_unseen_text": false
+    },
+    "unseen_text": {
+      "source_regime_name": "seen_subject_unseen_item",
+      "split_role_values": [
+        "val",
+        "test"
+      ],
+      "is_unseen_reader": false,
+      "is_unseen_text": true
+    },
+    "unseen_reader": {
+      "source_regime_name": "unseen_subject_seen_item",
+      "split_role_values": [
+        "val",
+        "test"
+      ],
+      "is_unseen_reader": true,
+      "is_unseen_text": false
+    },
+    "unseen_reader_text": {
+      "source_regime_name": "unseen_subject_unseen_item",
+      "split_role_values": [
+        "val",
+        "test"
+      ],
+      "is_unseen_reader": true,
+      "is_unseen_text": true
+    }
+  },
+  "subject_id_column": "participant_id",
+  "item_id_column": "item_id",
+  "item_id_source_column": "unique_paragraph_id",
+  "unique_trial_id_column": "unique_trial_id",
+  "split_item_columns": [
+    "speech_id"
+  ],
+  "split_item_id_column": "split_item_id",
+  "split_item_id_source_column": "speech_id"
+}

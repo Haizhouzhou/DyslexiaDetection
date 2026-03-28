@@ -1,0 +1,27 @@
+{
+  "task_name": "CopCo_TYP",
+  "dataset_name": "CopCo",
+  "export_script_version": "1.0.0",
+  "export_timestamp_utc": "2026-03-28T20:31:40.828628+00:00",
+  "source_repo_path": "D:\\UZH\\2026FS\\Eye Tracking and NLP\\project\\eyebench",
+  "git_commit_hash": "46cf60711d32f4368349b42b82eb466abec0dcd3",
+  "row_counts": {
+    "global_trial_manifest": 4782,
+    "global_split_manifest": 19128,
+    "participant_manifest": 57,
+    "participant_metadata": 57,
+    "item_manifest": 452,
+    "text_stimuli_inventory": 452
+  },
+  "feature_counts": {
+    "baseline_1d_reading_speed": 1,
+    "baseline_9d_shallow": 9,
+    "baseline_567d_rfstyle": 567
+  },
+  "fold_row_counts": {
+    "0": 4782,
+    "1": 4782,
+    "2": 4782,
+    "3": 4782
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "matrix_name": "baseline_9d_shallow",
+  "feature_count": 9,
+  "features": [
+    {
+      "feature_name": "skip_rate",
+      "dtype": "float64",
+      "description": "Mean item skip rate across the trial.",
+      "source_family": "svm_baseline",
+      "notes": "Selected using the repository feature registry and the canonical SupportVectorMachineMLArgs item-level feature mode."
+    },
+    {
+      "feature_name": "num_of_fixations",
+      "dtype": "int64",
+      "description": "Total number of interest-area fixations in the trial.",
+      "source_family": "svm_baseline",
+      "notes": "Selected using the repository feature registry and the canonical SupportVectorMachineMLArgs item-level feature mode."
+    },
+    {
+      "feature_name": "mean_TFD",
+      "dtype": "float64",
+      "description": "Mean total fixation duration across interest areas in the trial.",
+      "source_family": "svm_baseline",
+      "notes": "Selected using the repository feature registry and the canonical SupportVectorMachineMLArgs item-level feature mode."
+    },
+    {
+      "feature_name": "NEXT_SAC_DURATION_mean",
+      "dtype": "float64",
+      "description": "Mean next-saccade duration across fixation events.",
+      "source_family": "svm_baseline",
+      "notes": "Selected using the repository feature registry and the canonical SupportVectorMachineMLArgs item-level feature mode."
+    },
+    {
+      "feature_name": "NEXT_SAC_DURATION_max",
+      "dtype": "float64",
+      "description": "Maximum next-saccade duration across fixation events.",
+      "source_family": "svm_baseline",
+      "notes": "Selected using the repository feature registry and the canonical SupportVectorMachineMLArgs item-level feature mode."
+    },
+    {
+      "feature_name": "NEXT_SAC_AVG_VELOCITY_mean",
+      "dtype": "float64",
+      "description": "Mean next-saccade average velocity across fixation events.",
+      "source_family": "svm_baseline",
+      "notes": "Selected using the repository feature registry and the canonical SupportVectorMachineMLArgs item-level feature mode."
+    },
+    {
+      "feature_name": "NEXT_SAC_AVG_VELOCITY_max",
+      "dtype": "int64",
+      "description": "Maximum next-saccade average velocity across fixation events.",
+      "source_family": "svm_baseline",
+      "notes": "Selected using the repository feature registry and the canonical SupportVectorMachineMLArgs item-level feature mode."
+    },
+    {
+      "feature_name": "NEXT_SAC_AMPLITUDE_mean",
+      "dtype": "float64",
+      "description": "Mean next-saccade amplitude across fixation events.",
+      "source_family": "svm_baseline",
+      "notes": "Selected using the repository feature registry and the canonical SupportVectorMachineMLArgs item-level feature mode."
+    },
+    {
+      "feature_name": "NEXT_SAC_AMPLITUDE_max",
+      "dtype": "float64",
+      "description": "Maximum next-saccade amplitude across fixation events.",
+      "source_family": "svm_baseline",
+      "notes": "Selected using the repository feature registry and the canonical SupportVectorMachineMLArgs item-level feature mode."
+    }
+  ]
+}

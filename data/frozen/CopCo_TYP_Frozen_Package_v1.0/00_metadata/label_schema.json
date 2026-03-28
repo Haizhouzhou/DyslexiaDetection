@@ -1,0 +1,19 @@
+{
+  "task_name": "CopCo_TYP",
+  "dataset_name": "CopCo",
+  "target_column": "dyslexia",
+  "positive_class": "Dyslexia",
+  "negative_class": "Typical",
+  "labels": [
+    {
+      "value": 0,
+      "class_name": "Typical",
+      "polarity": "negative"
+    },
+    {
+      "value": 1,
+      "class_name": "Dyslexia",
+      "polarity": "positive"
+    }
+  ]
+}
